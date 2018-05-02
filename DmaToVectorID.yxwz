@@ -1,0 +1,2161 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="upc" selected="True" type="V_String" size="19" />
+            <SelectField field="WM Future Sell" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="WM Selling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="item_scope_level" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="dma_id" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="dma" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="period" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="productdescription" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="department" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="category_group" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="category" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="subcategory" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="segment" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="upc" size="19" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="brand" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="brand_family_desc" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="brand_owner" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="parent_company_desc" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="wm_dollars" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_dollars" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_dollars" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_dollars_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_dollars_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_dollars_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_dollars_PcntChg" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_dollars_PcntChg" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_dollars_PcntChg" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="wm_units" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_units" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_units" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_units_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_units_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_units_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="PrivateBrand_flag" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="Brand_Level" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="BrandDistribution_Flag" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="ClubPack_Flag" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="item_segment_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="item_subcat_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="item_cat_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="item_catgroup_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="Best DMA Rank" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="Best DMA" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="Item Analysis Level" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="wm_scopeLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_scopelevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_scopeLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_scopeLevel_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_scopelevel_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="TM_ScopeLevel_StoresSelling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="percent_wm_scopelevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="percent_rm_scopelevel_storesselling" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="percent_tm_scopelevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_storesselling_pointchg" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_storesselling_pointchg" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="tm_storesselling_pointchg" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_analysisLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_analysisLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_analysisLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_AnalysisLevel_DollarShare" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="WM_ItemLevel_DollarShare" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="share_gap_dollars" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="performance_measure" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="PerformanceRank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="WM_AnalysisLevel_ItemCapacity" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="brand_contribution_dma" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="brand_contribution_tus" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="brand_index" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_scopelevel_brandselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_rank_national" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="WM Future Sell" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Int64" />
+            <Field name="ItemRemovedDueToBrandRep" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="ItemRemovedDueToPerformanceVsCapacity" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="CriticalMassFlag" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="DSDFlag" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="MustHave" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="NiceToHave" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="IncludeBrand" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="258" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="upc_nbr" type="V_String" size="21" expression="PadLeft(upc, 13, '0')" />
+            <FormulaField field="Vendor_ID" type="V_String" size="254" expression="Left(upc_nbr, 6)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>upc_nbr=PadLeft(upc, 13, '0')
+Vendor_ID=Left(upc_nbr, 6)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="WM Selling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="item_scope_level" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="dma_id" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="dma" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="period" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="productdescription" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="department" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="category_group" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="category" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="subcategory" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="segment" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="upc" size="19" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="brand" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="brand_family_desc" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="brand_owner" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="parent_company_desc" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="wm_dollars" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_dollars" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_dollars" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_dollars_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_dollars_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_dollars_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_dollars_PcntChg" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_dollars_PcntChg" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_dollars_PcntChg" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="wm_units" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_units" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_units" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_units_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_units_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_units_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="PrivateBrand_flag" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="Brand_Level" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="BrandDistribution_Flag" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="ClubPack_Flag" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="item_segment_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="item_subcat_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="item_cat_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="item_catgroup_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="Best DMA Rank" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="Best DMA" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="Item Analysis Level" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="wm_scopeLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_scopelevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_scopeLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_scopeLevel_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_scopelevel_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="TM_ScopeLevel_StoresSelling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="percent_wm_scopelevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="percent_rm_scopelevel_storesselling" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="percent_tm_scopelevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_storesselling_pointchg" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_storesselling_pointchg" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="tm_storesselling_pointchg" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_analysisLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_analysisLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_analysisLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_AnalysisLevel_DollarShare" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="WM_ItemLevel_DollarShare" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="share_gap_dollars" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="performance_measure" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="PerformanceRank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="WM_AnalysisLevel_ItemCapacity" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="brand_contribution_dma" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="brand_contribution_tus" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="brand_index" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_scopelevel_brandselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_rank_national" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="WM Future Sell" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Int64" />
+            <Field name="ItemRemovedDueToBrandRep" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="ItemRemovedDueToPerformanceVsCapacity" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="CriticalMassFlag" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="DSDFlag" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="MustHave" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="NiceToHave" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="IncludeBrand" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="upc_nbr" size="21" source="Formula: PadLeft(upc, 13, '0')" type="V_String" />
+            <Field name="Vendor_ID" size="254" source="Formula: Left(upc_nbr, 6)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="342" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Vendor_ID" action="GroupBy" rename="Vendor_ID" />
+            <SummarizeField field="dma_id" action="GroupBy" rename="dma_id" />
+            <SummarizeField field="WM Future Sell" action="Sum" rename="Sum_WM Future Sell" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Vendor_ID" size="254" source="Summarize: GroupBy - Vendor_ID" type="V_String" />
+            <Field name="dma_id" source="Summarize: GroupBy - dma_id" type="Double" />
+            <Field name="Sum_WM Future Sell" source="Summarize: Sum - WM Future Sell" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Vendor_ID" order="Asc" />
+            <Field field="dma_id" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="414" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="dma_id" />
+          </GroupFields>
+          <HeaderField field="Vendor_ID" />
+          <DataField field="Sum_WM Future Sell" />
+          <Methods>
+            <Method method="Sum" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="dma_id" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="000127" source="CrossTab:Header:Vendor_ID:000127:Sum:" type="Int64" />
+            <Field name="000134" source="CrossTab:Header:Vendor_ID:000134:Sum:" type="Int64" />
+            <Field name="000139" source="CrossTab:Header:Vendor_ID:000139:Sum:" type="Int64" />
+            <Field name="000185" source="CrossTab:Header:Vendor_ID:000185:Sum:" type="Int64" />
+            <Field name="000189" source="CrossTab:Header:Vendor_ID:000189:Sum:" type="Int64" />
+            <Field name="000206" source="CrossTab:Header:Vendor_ID:000206:Sum:" type="Int64" />
+            <Field name="000210" source="CrossTab:Header:Vendor_ID:000210:Sum:" type="Int64" />
+            <Field name="000241" source="CrossTab:Header:Vendor_ID:000241:Sum:" type="Int64" />
+            <Field name="000267" source="CrossTab:Header:Vendor_ID:000267:Sum:" type="Int64" />
+            <Field name="000301" source="CrossTab:Header:Vendor_ID:000301:Sum:" type="Int64" />
+            <Field name="000346" source="CrossTab:Header:Vendor_ID:000346:Sum:" type="Int64" />
+            <Field name="000348" source="CrossTab:Header:Vendor_ID:000348:Sum:" type="Int64" />
+            <Field name="000413" source="CrossTab:Header:Vendor_ID:000413:Sum:" type="Int64" />
+            <Field name="000416" source="CrossTab:Header:Vendor_ID:000416:Sum:" type="Int64" />
+            <Field name="000418" source="CrossTab:Header:Vendor_ID:000418:Sum:" type="Int64" />
+            <Field name="000443" source="CrossTab:Header:Vendor_ID:000443:Sum:" type="Int64" />
+            <Field name="000449" source="CrossTab:Header:Vendor_ID:000449:Sum:" type="Int64" />
+            <Field name="000480" source="CrossTab:Header:Vendor_ID:000480:Sum:" type="Int64" />
+            <Field name="000495" source="CrossTab:Header:Vendor_ID:000495:Sum:" type="Int64" />
+            <Field name="000506" source="CrossTab:Header:Vendor_ID:000506:Sum:" type="Int64" />
+            <Field name="000542" source="CrossTab:Header:Vendor_ID:000542:Sum:" type="Int64" />
+            <Field name="000544" source="CrossTab:Header:Vendor_ID:000544:Sum:" type="Int64" />
+            <Field name="000685" source="CrossTab:Header:Vendor_ID:000685:Sum:" type="Int64" />
+            <Field name="000702" source="CrossTab:Header:Vendor_ID:000702:Sum:" type="Int64" />
+            <Field name="000708" source="CrossTab:Header:Vendor_ID:000708:Sum:" type="Int64" />
+            <Field name="000712" source="CrossTab:Header:Vendor_ID:000712:Sum:" type="Int64" />
+            <Field name="000714" source="CrossTab:Header:Vendor_ID:000714:Sum:" type="Int64" />
+            <Field name="000717" source="CrossTab:Header:Vendor_ID:000717:Sum:" type="Int64" />
+            <Field name="000718" source="CrossTab:Header:Vendor_ID:000718:Sum:" type="Int64" />
+            <Field name="000724" source="CrossTab:Header:Vendor_ID:000724:Sum:" type="Int64" />
+            <Field name="000738" source="CrossTab:Header:Vendor_ID:000738:Sum:" type="Int64" />
+            <Field name="000746" source="CrossTab:Header:Vendor_ID:000746:Sum:" type="Int64" />
+            <Field name="000765" source="CrossTab:Header:Vendor_ID:000765:Sum:" type="Int64" />
+            <Field name="000774" source="CrossTab:Header:Vendor_ID:000774:Sum:" type="Int64" />
+            <Field name="000775" source="CrossTab:Header:Vendor_ID:000775:Sum:" type="Int64" />
+            <Field name="000776" source="CrossTab:Header:Vendor_ID:000776:Sum:" type="Int64" />
+            <Field name="000857" source="CrossTab:Header:Vendor_ID:000857:Sum:" type="Int64" />
+            <Field name="000868" source="CrossTab:Header:Vendor_ID:000868:Sum:" type="Int64" />
+            <Field name="000919" source="CrossTab:Header:Vendor_ID:000919:Sum:" type="Int64" />
+            <Field name="000949" source="CrossTab:Header:Vendor_ID:000949:Sum:" type="Int64" />
+            <Field name="006034" source="CrossTab:Header:Vendor_ID:006034:Sum:" type="Int64" />
+            <Field name="006089" source="CrossTab:Header:Vendor_ID:006089:Sum:" type="Int64" />
+            <Field name="006100" source="CrossTab:Header:Vendor_ID:006100:Sum:" type="Int64" />
+            <Field name="006128" source="CrossTab:Header:Vendor_ID:006128:Sum:" type="Int64" />
+            <Field name="006326" source="CrossTab:Header:Vendor_ID:006326:Sum:" type="Int64" />
+            <Field name="006340" source="CrossTab:Header:Vendor_ID:006340:Sum:" type="Int64" />
+            <Field name="006356" source="CrossTab:Header:Vendor_ID:006356:Sum:" type="Int64" />
+            <Field name="006366" source="CrossTab:Header:Vendor_ID:006366:Sum:" type="Int64" />
+            <Field name="006869" source="CrossTab:Header:Vendor_ID:006869:Sum:" type="Int64" />
+            <Field name="006968" source="CrossTab:Header:Vendor_ID:006968:Sum:" type="Int64" />
+            <Field name="007001" source="CrossTab:Header:Vendor_ID:007001:Sum:" type="Int64" />
+            <Field name="007006" source="CrossTab:Header:Vendor_ID:007006:Sum:" type="Int64" />
+            <Field name="007032" source="CrossTab:Header:Vendor_ID:007032:Sum:" type="Int64" />
+            <Field name="007051" source="CrossTab:Header:Vendor_ID:007051:Sum:" type="Int64" />
+            <Field name="007085" source="CrossTab:Header:Vendor_ID:007085:Sum:" type="Int64" />
+            <Field name="007137" source="CrossTab:Header:Vendor_ID:007137:Sum:" type="Int64" />
+            <Field name="007230" source="CrossTab:Header:Vendor_ID:007230:Sum:" type="Int64" />
+            <Field name="007282" source="CrossTab:Header:Vendor_ID:007282:Sum:" type="Int64" />
+            <Field name="007292" source="CrossTab:Header:Vendor_ID:007292:Sum:" type="Int64" />
+            <Field name="007300" source="CrossTab:Header:Vendor_ID:007300:Sum:" type="Int64" />
+            <Field name="007331" source="CrossTab:Header:Vendor_ID:007331:Sum:" type="Int64" />
+            <Field name="007557" source="CrossTab:Header:Vendor_ID:007557:Sum:" type="Int64" />
+            <Field name="007619" source="CrossTab:Header:Vendor_ID:007619:Sum:" type="Int64" />
+            <Field name="007622" source="CrossTab:Header:Vendor_ID:007622:Sum:" type="Int64" />
+            <Field name="007864" source="CrossTab:Header:Vendor_ID:007864:Sum:" type="Int64" />
+            <Field name="007867" source="CrossTab:Header:Vendor_ID:007867:Sum:" type="Int64" />
+            <Field name="007896" source="CrossTab:Header:Vendor_ID:007896:Sum:" type="Int64" />
+            <Field name="007945" source="CrossTab:Header:Vendor_ID:007945:Sum:" type="Int64" />
+            <Field name="007983" source="CrossTab:Header:Vendor_ID:007983:Sum:" type="Int64" />
+            <Field name="007994" source="CrossTab:Header:Vendor_ID:007994:Sum:" type="Int64" />
+            <Field name="008102" source="CrossTab:Header:Vendor_ID:008102:Sum:" type="Int64" />
+            <Field name="008114" source="CrossTab:Header:Vendor_ID:008114:Sum:" type="Int64" />
+            <Field name="008144" source="CrossTab:Header:Vendor_ID:008144:Sum:" type="Int64" />
+            <Field name="008170" source="CrossTab:Header:Vendor_ID:008170:Sum:" type="Int64" />
+            <Field name="008227" source="CrossTab:Header:Vendor_ID:008227:Sum:" type="Int64" />
+            <Field name="008247" source="CrossTab:Header:Vendor_ID:008247:Sum:" type="Int64" />
+            <Field name="008298" source="CrossTab:Header:Vendor_ID:008298:Sum:" type="Int64" />
+            <Field name="008329" source="CrossTab:Header:Vendor_ID:008329:Sum:" type="Int64" />
+            <Field name="008374" source="CrossTab:Header:Vendor_ID:008374:Sum:" type="Int64" />
+            <Field name="008376" source="CrossTab:Header:Vendor_ID:008376:Sum:" type="Int64" />
+            <Field name="008404" source="CrossTab:Header:Vendor_ID:008404:Sum:" type="Int64" />
+            <Field name="008502" source="CrossTab:Header:Vendor_ID:008502:Sum:" type="Int64" />
+            <Field name="008505" source="CrossTab:Header:Vendor_ID:008505:Sum:" type="Int64" />
+            <Field name="008518" source="CrossTab:Header:Vendor_ID:008518:Sum:" type="Int64" />
+            <Field name="008523" source="CrossTab:Header:Vendor_ID:008523:Sum:" type="Int64" />
+            <Field name="008541" source="CrossTab:Header:Vendor_ID:008541:Sum:" type="Int64" />
+            <Field name="008548" source="CrossTab:Header:Vendor_ID:008548:Sum:" type="Int64" />
+            <Field name="008554" source="CrossTab:Header:Vendor_ID:008554:Sum:" type="Int64" />
+            <Field name="008557" source="CrossTab:Header:Vendor_ID:008557:Sum:" type="Int64" />
+            <Field name="008559" source="CrossTab:Header:Vendor_ID:008559:Sum:" type="Int64" />
+            <Field name="008564" source="CrossTab:Header:Vendor_ID:008564:Sum:" type="Int64" />
+            <Field name="008572" source="CrossTab:Header:Vendor_ID:008572:Sum:" type="Int64" />
+            <Field name="008576" source="CrossTab:Header:Vendor_ID:008576:Sum:" type="Int64" />
+            <Field name="008578" source="CrossTab:Header:Vendor_ID:008578:Sum:" type="Int64" />
+            <Field name="008596" source="CrossTab:Header:Vendor_ID:008596:Sum:" type="Int64" />
+            <Field name="008628" source="CrossTab:Header:Vendor_ID:008628:Sum:" type="Int64" />
+            <Field name="008669" source="CrossTab:Header:Vendor_ID:008669:Sum:" type="Int64" />
+            <Field name="008727" source="CrossTab:Header:Vendor_ID:008727:Sum:" type="Int64" />
+            <Field name="008808" source="CrossTab:Header:Vendor_ID:008808:Sum:" type="Int64" />
+            <Field name="008916" source="CrossTab:Header:Vendor_ID:008916:Sum:" type="Int64" />
+            <Field name="008917" source="CrossTab:Header:Vendor_ID:008917:Sum:" type="Int64" />
+            <Field name="008919" source="CrossTab:Header:Vendor_ID:008919:Sum:" type="Int64" />
+            <Field name="008929" source="CrossTab:Header:Vendor_ID:008929:Sum:" type="Int64" />
+            <Field name="008968" source="CrossTab:Header:Vendor_ID:008968:Sum:" type="Int64" />
+            <Field name="008973" source="CrossTab:Header:Vendor_ID:008973:Sum:" type="Int64" />
+            <Field name="099000" source="CrossTab:Header:Vendor_ID:099000:Sum:" type="Int64" />
+            <Field name="_Null_" source="CrossTab:Header:Vendor_ID:[Null]:Sum:" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="dma_id" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxRPluginGui.R">
+        <Position x="630" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RScript><![CDATA[df <- read.Alteryx("#1", mode="data.frame")
+
+df[is.na(df)==TRUE] <- 0
+
+df1 <- df$dma_id
+df2 <- df[,-1]
+
+df2[df2>0] <- 1
+
+df<- cbind(df1,df2)
+colnames(df)[1] <- "dma_id"
+
+df[length(df$dma_id)+1,-1] <-  apply(df[,-1],2, sum)
+
+df<- df[-1,]
+
+df[length(as.numeric(df$dma_id)+1),1] <- as.character("sum")
+
+df_concat <- c(df[,-1], sep="")
+
+df_concat <- do.call(paste, df_concat)
+
+write.Alteryx(df, 1)
+write.Alteryx(df_concat,2)
+
+]]></RScript>
+          <UseFullUpdate value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output1">
+          <RecordInfo>
+            <Field name="dma_id" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X000127" source="R-DATA:" type="Double" />
+            <Field name="X000134" source="R-DATA:" type="Double" />
+            <Field name="X000139" source="R-DATA:" type="Double" />
+            <Field name="X000185" source="R-DATA:" type="Double" />
+            <Field name="X000189" source="R-DATA:" type="Double" />
+            <Field name="X000206" source="R-DATA:" type="Double" />
+            <Field name="X000210" source="R-DATA:" type="Double" />
+            <Field name="X000241" source="R-DATA:" type="Double" />
+            <Field name="X000267" source="R-DATA:" type="Double" />
+            <Field name="X000301" source="R-DATA:" type="Double" />
+            <Field name="X000346" source="R-DATA:" type="Double" />
+            <Field name="X000348" source="R-DATA:" type="Double" />
+            <Field name="X000413" source="R-DATA:" type="Double" />
+            <Field name="X000416" source="R-DATA:" type="Double" />
+            <Field name="X000418" source="R-DATA:" type="Double" />
+            <Field name="X000443" source="R-DATA:" type="Double" />
+            <Field name="X000449" source="R-DATA:" type="Double" />
+            <Field name="X000480" source="R-DATA:" type="Double" />
+            <Field name="X000495" source="R-DATA:" type="Double" />
+            <Field name="X000506" source="R-DATA:" type="Double" />
+            <Field name="X000542" source="R-DATA:" type="Double" />
+            <Field name="X000544" source="R-DATA:" type="Double" />
+            <Field name="X000685" source="R-DATA:" type="Double" />
+            <Field name="X000702" source="R-DATA:" type="Double" />
+            <Field name="X000708" source="R-DATA:" type="Double" />
+            <Field name="X000712" source="R-DATA:" type="Double" />
+            <Field name="X000714" source="R-DATA:" type="Double" />
+            <Field name="X000717" source="R-DATA:" type="Double" />
+            <Field name="X000718" source="R-DATA:" type="Double" />
+            <Field name="X000724" source="R-DATA:" type="Double" />
+            <Field name="X000738" source="R-DATA:" type="Double" />
+            <Field name="X000746" source="R-DATA:" type="Double" />
+            <Field name="X000765" source="R-DATA:" type="Double" />
+            <Field name="X000774" source="R-DATA:" type="Double" />
+            <Field name="X000775" source="R-DATA:" type="Double" />
+            <Field name="X000776" source="R-DATA:" type="Double" />
+            <Field name="X000857" source="R-DATA:" type="Double" />
+            <Field name="X000868" source="R-DATA:" type="Double" />
+            <Field name="X000919" source="R-DATA:" type="Double" />
+            <Field name="X000949" source="R-DATA:" type="Double" />
+            <Field name="X006034" source="R-DATA:" type="Double" />
+            <Field name="X006089" source="R-DATA:" type="Double" />
+            <Field name="X006100" source="R-DATA:" type="Double" />
+            <Field name="X006128" source="R-DATA:" type="Double" />
+            <Field name="X006326" source="R-DATA:" type="Double" />
+            <Field name="X006340" source="R-DATA:" type="Double" />
+            <Field name="X006356" source="R-DATA:" type="Double" />
+            <Field name="X006366" source="R-DATA:" type="Double" />
+            <Field name="X006869" source="R-DATA:" type="Double" />
+            <Field name="X006968" source="R-DATA:" type="Double" />
+            <Field name="X007001" source="R-DATA:" type="Double" />
+            <Field name="X007006" source="R-DATA:" type="Double" />
+            <Field name="X007032" source="R-DATA:" type="Double" />
+            <Field name="X007051" source="R-DATA:" type="Double" />
+            <Field name="X007085" source="R-DATA:" type="Double" />
+            <Field name="X007137" source="R-DATA:" type="Double" />
+            <Field name="X007230" source="R-DATA:" type="Double" />
+            <Field name="X007282" source="R-DATA:" type="Double" />
+            <Field name="X007292" source="R-DATA:" type="Double" />
+            <Field name="X007300" source="R-DATA:" type="Double" />
+            <Field name="X007331" source="R-DATA:" type="Double" />
+            <Field name="X007557" source="R-DATA:" type="Double" />
+            <Field name="X007619" source="R-DATA:" type="Double" />
+            <Field name="X007622" source="R-DATA:" type="Double" />
+            <Field name="X007864" source="R-DATA:" type="Double" />
+            <Field name="X007867" source="R-DATA:" type="Double" />
+            <Field name="X007896" source="R-DATA:" type="Double" />
+            <Field name="X007945" source="R-DATA:" type="Double" />
+            <Field name="X007983" source="R-DATA:" type="Double" />
+            <Field name="X007994" source="R-DATA:" type="Double" />
+            <Field name="X008102" source="R-DATA:" type="Double" />
+            <Field name="X008114" source="R-DATA:" type="Double" />
+            <Field name="X008144" source="R-DATA:" type="Double" />
+            <Field name="X008170" source="R-DATA:" type="Double" />
+            <Field name="X008227" source="R-DATA:" type="Double" />
+            <Field name="X008247" source="R-DATA:" type="Double" />
+            <Field name="X008298" source="R-DATA:" type="Double" />
+            <Field name="X008329" source="R-DATA:" type="Double" />
+            <Field name="X008374" source="R-DATA:" type="Double" />
+            <Field name="X008376" source="R-DATA:" type="Double" />
+            <Field name="X008404" source="R-DATA:" type="Double" />
+            <Field name="X008502" source="R-DATA:" type="Double" />
+            <Field name="X008505" source="R-DATA:" type="Double" />
+            <Field name="X008518" source="R-DATA:" type="Double" />
+            <Field name="X008523" source="R-DATA:" type="Double" />
+            <Field name="X008541" source="R-DATA:" type="Double" />
+            <Field name="X008548" source="R-DATA:" type="Double" />
+            <Field name="X008554" source="R-DATA:" type="Double" />
+            <Field name="X008557" source="R-DATA:" type="Double" />
+            <Field name="X008559" source="R-DATA:" type="Double" />
+            <Field name="X008564" source="R-DATA:" type="Double" />
+            <Field name="X008572" source="R-DATA:" type="Double" />
+            <Field name="X008576" source="R-DATA:" type="Double" />
+            <Field name="X008578" source="R-DATA:" type="Double" />
+            <Field name="X008596" source="R-DATA:" type="Double" />
+            <Field name="X008628" source="R-DATA:" type="Double" />
+            <Field name="X008669" source="R-DATA:" type="Double" />
+            <Field name="X008727" source="R-DATA:" type="Double" />
+            <Field name="X008808" source="R-DATA:" type="Double" />
+            <Field name="X008916" source="R-DATA:" type="Double" />
+            <Field name="X008917" source="R-DATA:" type="Double" />
+            <Field name="X008919" source="R-DATA:" type="Double" />
+            <Field name="X008929" source="R-DATA:" type="Double" />
+            <Field name="X008968" source="R-DATA:" type="Double" />
+            <Field name="X008973" source="R-DATA:" type="Double" />
+            <Field name="X099000" source="R-DATA:" type="Double" />
+            <Field name="X_Null_" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output2">
+          <RecordInfo>
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001100100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000010100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100101000000100000000000000000000000000000000000000000000000000010000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001100100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..5" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001100100000000000000000000010000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000001000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000001000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100100001000100000000000000000000000001000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..6" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..7" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..8" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000010000000000000000000000000000001000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..9" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100100001000100000000000000000000000001000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..10" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..5" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000001000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000000001000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..6" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..11" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000001000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000010000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000101000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000001000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000010001000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..7" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..8" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..12" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..13" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001100100000000000000000000000001000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000010000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000001000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000100000000000000000000000001000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000010001000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100100001000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..14" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..15" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000001000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100100000000000000000000000000000000000001000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..5" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..6" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..5" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..6" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000101000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..16" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000101000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..5" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..6" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000010000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..17" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100100000000101000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000101000000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..7" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..8" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001100100000000000000000000010000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100100000000000000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100101001100100000000000000000000010000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000101000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..9" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100100000100100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000010000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..18" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..7" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100100001100100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..10" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000100001000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..7" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..8" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000101000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001100100000000000000000000010000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000101000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..11" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..19" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000101000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..5" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100100001000100000000000000000000000000100000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..20" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001100100000000000000000000010000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..12" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..8" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000101000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000101000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..21" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100100001000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..22" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000010000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000010000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100101001000101000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100100001000101000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101000100100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000100101000000100000000000000000000010000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100100000000101000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..13" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000100000100101000000100000000010000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000000000000100000000010000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000100000000100000000010000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000100000000100000000000000000000000000000000000000000000000000010000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000100000000100000000010000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000100000000100000000010000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000100000000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000100000000100000000010000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..5" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00001000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000100001000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000101000000100000000010000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000100000000100000000000000000000000000000000000000000000000000010000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000101000000100000000010000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000..5" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000100000000100000000010000000000000000000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000010000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000..6" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000100000000100000000000000000000000000000000000000000000000000010000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..6" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000010101000000100000000000000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000100001000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000010100000000100000000000000000000000000000000000000000000000000010000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..7" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..8" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000010101000000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000010000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..9" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000010000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000100000000100000000000000000000000000000000000000000000000000000000000000000000000..1" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000010000000000000000000000000000000000000000000000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000100000000100000000000000000000000000000000000000000000000000010000000000000000000..2" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..10" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000010000000000000000000..3" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.00000000000000000000000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..4" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="X.0000320000000000001250000015530202014900861120200013000000010000000000008000231040000000000000000400000120000000000000000000." size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="dma_id" source="CrossTab:Group:Sum:" type="Double" />
+            <Field name="000127" source="CrossTab:Header:Vendor_ID:000127:Sum:" type="Int64" />
+            <Field name="000134" source="CrossTab:Header:Vendor_ID:000134:Sum:" type="Int64" />
+            <Field name="000139" source="CrossTab:Header:Vendor_ID:000139:Sum:" type="Int64" />
+            <Field name="000185" source="CrossTab:Header:Vendor_ID:000185:Sum:" type="Int64" />
+            <Field name="000189" source="CrossTab:Header:Vendor_ID:000189:Sum:" type="Int64" />
+            <Field name="000206" source="CrossTab:Header:Vendor_ID:000206:Sum:" type="Int64" />
+            <Field name="000210" source="CrossTab:Header:Vendor_ID:000210:Sum:" type="Int64" />
+            <Field name="000241" source="CrossTab:Header:Vendor_ID:000241:Sum:" type="Int64" />
+            <Field name="000267" source="CrossTab:Header:Vendor_ID:000267:Sum:" type="Int64" />
+            <Field name="000301" source="CrossTab:Header:Vendor_ID:000301:Sum:" type="Int64" />
+            <Field name="000346" source="CrossTab:Header:Vendor_ID:000346:Sum:" type="Int64" />
+            <Field name="000348" source="CrossTab:Header:Vendor_ID:000348:Sum:" type="Int64" />
+            <Field name="000413" source="CrossTab:Header:Vendor_ID:000413:Sum:" type="Int64" />
+            <Field name="000416" source="CrossTab:Header:Vendor_ID:000416:Sum:" type="Int64" />
+            <Field name="000418" source="CrossTab:Header:Vendor_ID:000418:Sum:" type="Int64" />
+            <Field name="000443" source="CrossTab:Header:Vendor_ID:000443:Sum:" type="Int64" />
+            <Field name="000449" source="CrossTab:Header:Vendor_ID:000449:Sum:" type="Int64" />
+            <Field name="000480" source="CrossTab:Header:Vendor_ID:000480:Sum:" type="Int64" />
+            <Field name="000495" source="CrossTab:Header:Vendor_ID:000495:Sum:" type="Int64" />
+            <Field name="000506" source="CrossTab:Header:Vendor_ID:000506:Sum:" type="Int64" />
+            <Field name="000542" source="CrossTab:Header:Vendor_ID:000542:Sum:" type="Int64" />
+            <Field name="000544" source="CrossTab:Header:Vendor_ID:000544:Sum:" type="Int64" />
+            <Field name="000685" source="CrossTab:Header:Vendor_ID:000685:Sum:" type="Int64" />
+            <Field name="000702" source="CrossTab:Header:Vendor_ID:000702:Sum:" type="Int64" />
+            <Field name="000708" source="CrossTab:Header:Vendor_ID:000708:Sum:" type="Int64" />
+            <Field name="000712" source="CrossTab:Header:Vendor_ID:000712:Sum:" type="Int64" />
+            <Field name="000714" source="CrossTab:Header:Vendor_ID:000714:Sum:" type="Int64" />
+            <Field name="000717" source="CrossTab:Header:Vendor_ID:000717:Sum:" type="Int64" />
+            <Field name="000718" source="CrossTab:Header:Vendor_ID:000718:Sum:" type="Int64" />
+            <Field name="000724" source="CrossTab:Header:Vendor_ID:000724:Sum:" type="Int64" />
+            <Field name="000738" source="CrossTab:Header:Vendor_ID:000738:Sum:" type="Int64" />
+            <Field name="000746" source="CrossTab:Header:Vendor_ID:000746:Sum:" type="Int64" />
+            <Field name="000765" source="CrossTab:Header:Vendor_ID:000765:Sum:" type="Int64" />
+            <Field name="000774" source="CrossTab:Header:Vendor_ID:000774:Sum:" type="Int64" />
+            <Field name="000775" source="CrossTab:Header:Vendor_ID:000775:Sum:" type="Int64" />
+            <Field name="000776" source="CrossTab:Header:Vendor_ID:000776:Sum:" type="Int64" />
+            <Field name="000857" source="CrossTab:Header:Vendor_ID:000857:Sum:" type="Int64" />
+            <Field name="000868" source="CrossTab:Header:Vendor_ID:000868:Sum:" type="Int64" />
+            <Field name="000919" source="CrossTab:Header:Vendor_ID:000919:Sum:" type="Int64" />
+            <Field name="000949" source="CrossTab:Header:Vendor_ID:000949:Sum:" type="Int64" />
+            <Field name="006034" source="CrossTab:Header:Vendor_ID:006034:Sum:" type="Int64" />
+            <Field name="006089" source="CrossTab:Header:Vendor_ID:006089:Sum:" type="Int64" />
+            <Field name="006100" source="CrossTab:Header:Vendor_ID:006100:Sum:" type="Int64" />
+            <Field name="006128" source="CrossTab:Header:Vendor_ID:006128:Sum:" type="Int64" />
+            <Field name="006326" source="CrossTab:Header:Vendor_ID:006326:Sum:" type="Int64" />
+            <Field name="006340" source="CrossTab:Header:Vendor_ID:006340:Sum:" type="Int64" />
+            <Field name="006356" source="CrossTab:Header:Vendor_ID:006356:Sum:" type="Int64" />
+            <Field name="006366" source="CrossTab:Header:Vendor_ID:006366:Sum:" type="Int64" />
+            <Field name="006869" source="CrossTab:Header:Vendor_ID:006869:Sum:" type="Int64" />
+            <Field name="006968" source="CrossTab:Header:Vendor_ID:006968:Sum:" type="Int64" />
+            <Field name="007001" source="CrossTab:Header:Vendor_ID:007001:Sum:" type="Int64" />
+            <Field name="007006" source="CrossTab:Header:Vendor_ID:007006:Sum:" type="Int64" />
+            <Field name="007032" source="CrossTab:Header:Vendor_ID:007032:Sum:" type="Int64" />
+            <Field name="007051" source="CrossTab:Header:Vendor_ID:007051:Sum:" type="Int64" />
+            <Field name="007085" source="CrossTab:Header:Vendor_ID:007085:Sum:" type="Int64" />
+            <Field name="007137" source="CrossTab:Header:Vendor_ID:007137:Sum:" type="Int64" />
+            <Field name="007230" source="CrossTab:Header:Vendor_ID:007230:Sum:" type="Int64" />
+            <Field name="007282" source="CrossTab:Header:Vendor_ID:007282:Sum:" type="Int64" />
+            <Field name="007292" source="CrossTab:Header:Vendor_ID:007292:Sum:" type="Int64" />
+            <Field name="007300" source="CrossTab:Header:Vendor_ID:007300:Sum:" type="Int64" />
+            <Field name="007331" source="CrossTab:Header:Vendor_ID:007331:Sum:" type="Int64" />
+            <Field name="007557" source="CrossTab:Header:Vendor_ID:007557:Sum:" type="Int64" />
+            <Field name="007619" source="CrossTab:Header:Vendor_ID:007619:Sum:" type="Int64" />
+            <Field name="007622" source="CrossTab:Header:Vendor_ID:007622:Sum:" type="Int64" />
+            <Field name="007864" source="CrossTab:Header:Vendor_ID:007864:Sum:" type="Int64" />
+            <Field name="007867" source="CrossTab:Header:Vendor_ID:007867:Sum:" type="Int64" />
+            <Field name="007896" source="CrossTab:Header:Vendor_ID:007896:Sum:" type="Int64" />
+            <Field name="007945" source="CrossTab:Header:Vendor_ID:007945:Sum:" type="Int64" />
+            <Field name="007983" source="CrossTab:Header:Vendor_ID:007983:Sum:" type="Int64" />
+            <Field name="007994" source="CrossTab:Header:Vendor_ID:007994:Sum:" type="Int64" />
+            <Field name="008102" source="CrossTab:Header:Vendor_ID:008102:Sum:" type="Int64" />
+            <Field name="008114" source="CrossTab:Header:Vendor_ID:008114:Sum:" type="Int64" />
+            <Field name="008144" source="CrossTab:Header:Vendor_ID:008144:Sum:" type="Int64" />
+            <Field name="008170" source="CrossTab:Header:Vendor_ID:008170:Sum:" type="Int64" />
+            <Field name="008227" source="CrossTab:Header:Vendor_ID:008227:Sum:" type="Int64" />
+            <Field name="008247" source="CrossTab:Header:Vendor_ID:008247:Sum:" type="Int64" />
+            <Field name="008298" source="CrossTab:Header:Vendor_ID:008298:Sum:" type="Int64" />
+            <Field name="008329" source="CrossTab:Header:Vendor_ID:008329:Sum:" type="Int64" />
+            <Field name="008374" source="CrossTab:Header:Vendor_ID:008374:Sum:" type="Int64" />
+            <Field name="008376" source="CrossTab:Header:Vendor_ID:008376:Sum:" type="Int64" />
+            <Field name="008404" source="CrossTab:Header:Vendor_ID:008404:Sum:" type="Int64" />
+            <Field name="008502" source="CrossTab:Header:Vendor_ID:008502:Sum:" type="Int64" />
+            <Field name="008505" source="CrossTab:Header:Vendor_ID:008505:Sum:" type="Int64" />
+            <Field name="008518" source="CrossTab:Header:Vendor_ID:008518:Sum:" type="Int64" />
+            <Field name="008523" source="CrossTab:Header:Vendor_ID:008523:Sum:" type="Int64" />
+            <Field name="008541" source="CrossTab:Header:Vendor_ID:008541:Sum:" type="Int64" />
+            <Field name="008548" source="CrossTab:Header:Vendor_ID:008548:Sum:" type="Int64" />
+            <Field name="008554" source="CrossTab:Header:Vendor_ID:008554:Sum:" type="Int64" />
+            <Field name="008557" source="CrossTab:Header:Vendor_ID:008557:Sum:" type="Int64" />
+            <Field name="008559" source="CrossTab:Header:Vendor_ID:008559:Sum:" type="Int64" />
+            <Field name="008564" source="CrossTab:Header:Vendor_ID:008564:Sum:" type="Int64" />
+            <Field name="008572" source="CrossTab:Header:Vendor_ID:008572:Sum:" type="Int64" />
+            <Field name="008576" source="CrossTab:Header:Vendor_ID:008576:Sum:" type="Int64" />
+            <Field name="008578" source="CrossTab:Header:Vendor_ID:008578:Sum:" type="Int64" />
+            <Field name="008596" source="CrossTab:Header:Vendor_ID:008596:Sum:" type="Int64" />
+            <Field name="008628" source="CrossTab:Header:Vendor_ID:008628:Sum:" type="Int64" />
+            <Field name="008669" source="CrossTab:Header:Vendor_ID:008669:Sum:" type="Int64" />
+            <Field name="008727" source="CrossTab:Header:Vendor_ID:008727:Sum:" type="Int64" />
+            <Field name="008808" source="CrossTab:Header:Vendor_ID:008808:Sum:" type="Int64" />
+            <Field name="008916" source="CrossTab:Header:Vendor_ID:008916:Sum:" type="Int64" />
+            <Field name="008917" source="CrossTab:Header:Vendor_ID:008917:Sum:" type="Int64" />
+            <Field name="008919" source="CrossTab:Header:Vendor_ID:008919:Sum:" type="Int64" />
+            <Field name="008929" source="CrossTab:Header:Vendor_ID:008929:Sum:" type="Int64" />
+            <Field name="008968" source="CrossTab:Header:Vendor_ID:008968:Sum:" type="Int64" />
+            <Field name="008973" source="CrossTab:Header:Vendor_ID:008973:Sum:" type="Int64" />
+            <Field name="099000" source="CrossTab:Header:Vendor_ID:099000:Sum:" type="Int64" />
+            <Field name="_Null_" source="CrossTab:Header:Vendor_ID:[Null]:Sum:" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="dma_id" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\i1herre\AppData\Local\Temp\Engine_12748_af85ebad9a614891ab1f7b2198897fc3_\Engine_10704_54534d39997d4488a102d42449b0ec15_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\i1herre\AppData\Local\Temp\Engine_12748_af85ebad9a614891ab1f7b2198897fc3_\Engine_10704_5dd4a60054f34b16bd4023489a4dc374_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.FileBrowse.FileBrowse">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="66" y="150" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="726" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\i1herre\Desktop\Attachments\test.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>test.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GeoClusterAssignment_V2.xlsx
+Table=`DMA_UPC$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="WM Selling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="item_scope_level" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="dma_id" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="dma" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="period" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="productdescription" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="department" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="category_group" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="category" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="subcategory" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="segment" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="upc" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="brand" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="brand_family_desc" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="brand_owner" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="parent_company_desc" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="wm_dollars" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_dollars" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_dollars" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_dollars_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_dollars_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_dollars_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_dollars_PcntChg" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_dollars_PcntChg" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_dollars_PcntChg" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="wm_units" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_units" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_units" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_units_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_units_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_units_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="PrivateBrand_flag" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="Brand_Level" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="BrandDistribution_Flag" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="ClubPack_Flag" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="item_segment_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="item_subcat_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="item_cat_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="item_catgroup_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_rank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="Best DMA Rank" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="Best DMA" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="Item Analysis Level" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="wm_scopeLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_scopelevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_scopeLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_scopeLevel_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_scopelevel_storesselling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="TM_ScopeLevel_StoresSelling_ya" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="percent_wm_scopelevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="percent_rm_scopelevel_storesselling" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="percent_tm_scopelevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_storesselling_pointchg" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_storesselling_pointchg" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="tm_storesselling_pointchg" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_analysisLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="rm_analysisLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_analysisLevel_storesselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_AnalysisLevel_DollarShare" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="WM_ItemLevel_DollarShare" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="V_String" />
+            <Field name="share_gap_dollars" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="performance_measure" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="PerformanceRank" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="WM_AnalysisLevel_ItemCapacity" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="brand_contribution_dma" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="brand_contribution_tus" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="brand_index" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="wm_scopelevel_brandselling" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="tm_rank_national" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="WM Future Sell" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="ItemRemovedDueToBrandRep" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="ItemRemovedDueToPerformanceVsCapacity" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="CriticalMassFlag" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="DSDFlag" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="MustHave" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="NiceToHave" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+            <Field name="IncludeBrand" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`DMA_UPC$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="834" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\i1herre\AppData\Local\Temp\Engine_12748_af85ebad9a614891ab1f7b2198897fc3_\Engine_10704_377c26015a4744d49ac34161e13ce418_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="750" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields />
+          <DataFields>
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00001000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000100101001100100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00001000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000100101000010100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00001000000000000100000100101000000100000000000000000000000000000000000000000000000000010000000000000000000." selected="True" />
+            <Field field="X.00001000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00001000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000100000100101001100100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..5" selected="True" />
+            <Field field="X.00000000000000000000000100101001100100000000000000000000010000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00001000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000001000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000001000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100100001000100000000000000000000000001000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..6" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..7" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..8" selected="True" />
+            <Field field="X.00000000000000000100000100101000010000000000000000000000000000001000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..9" selected="True" />
+            <Field field="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.00000000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000100100001000100000000000000000000000001000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..10" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..5" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000001000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000000001000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..6" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..11" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000001000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000010000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000101000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000001000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000010001000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..7" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..8" selected="True" />
+            <Field field="X.00000000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..12" selected="True" />
+            <Field field="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..13" selected="True" />
+            <Field field="X.00000000000000000100000100101001100100000000000000000000000001000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000010000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000001000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000000000100101000000100000000000000000000000001000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000001000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00001000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000010001000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00001000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00001000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00001000000000000000000100100001000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..14" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..15" selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000001000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.00000000000000000000000100100000000000000000000000000000000000001000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..5" selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..6" selected="True" />
+            <Field field="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..5" selected="True" />
+            <Field field="X.00001000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00001000000000000000000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00001000000000000000000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.00001000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..6" selected="True" />
+            <Field field="X.00000000000000000000000100101000000101000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..16" selected="True" />
+            <Field field="X.00000000000000000000000100101000000101000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00001000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..5" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..6" selected="True" />
+            <Field field="X.00001000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000010000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..17" selected="True" />
+            <Field field="X.00001000000000000000000100100000000101000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000000101000000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..7" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..8" selected="True" />
+            <Field field="X.00000000000000000100000100101001100100000000000000000000010000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00001000000000000100000100100000000000000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00001000000000000000000100101001100100000000000000000000010000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00001000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000100000100101000000101000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00001000000000000000000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..9" selected="True" />
+            <Field field="X.00000000000000000100000100100000100100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000010000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..18" selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..7" selected="True" />
+            <Field field="X.00000000000000000100000100100001100100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00001000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00001000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..10" selected="True" />
+            <Field field="X.00000000000000000100000000100001000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00001000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..7" selected="True" />
+            <Field field="X.00000000000000000000000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..8" selected="True" />
+            <Field field="X.00000000000000000100000100101001000101000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101001100100000000000000000000010000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000100101001000101000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..11" selected="True" />
+            <Field field="X.00000000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..19" selected="True" />
+            <Field field="X.00000000000000000000000100101000000101000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00001000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..5" selected="True" />
+            <Field field="X.00001000000000000000000100100001000100000000000000000000000000100000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00001000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..20" selected="True" />
+            <Field field="X.00000000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.00000000000000000000000100101001100100000000000000000000010000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..12" selected="True" />
+            <Field field="X.00000000000000000100000100100001000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..8" selected="True" />
+            <Field field="X.00000000000000000000000100101000000101000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000100000100101001000101000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..21" selected="True" />
+            <Field field="X.00000000000000000000000100100001000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000000000000000000000000000000..22" selected="True" />
+            <Field field="X.00000000000000000100000100101000000100000000000000000000000000000000000000000000010000000000000000000000000..1" selected="True" />
+            <Field field="X.00001000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000010000000000000000000000000..1" selected="True" />
+            <Field field="X.00001000000000000100000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00001000000000000000000100101001000101000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000100100001000101000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101000100100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000100101000000100000000000000000000010000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100100000000101000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000100101001000100000000000000000000000000000000000000000000000000000000000000000000000..13" selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00001000000000000100000100101000000100000000010000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.00000000000000000000000000000000000100000000010000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000000100000000100000000010000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000000100000000100000000000000000000000000000000000000000000000000010000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000000100000000100000000010000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000000100000000100000000010000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000000000000100000000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000000100000000100000000010000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..5" selected="True" />
+            <Field field="X.00001000000000000000000100100000000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000100000000100001000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000000101000000100000000010000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000000100000000100000000000000000000000000000000000000000000000000010000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000000101000000100000000010000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000..5" selected="True" />
+            <Field field="X.00000000000000000000000000100000000100000000010000000000000000000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000010000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000000101001000100000000000000000000000000000000000000000000000000000000000000000000000..6" selected="True" />
+            <Field field="X.00000000000000000100000000100000000100000000000000000000000000000000000000000000000000010000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..6" selected="True" />
+            <Field field="X.00000000000000000000000010101000000100000000000000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000000100001000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000000000010100000000100000000000000000000000000000000000000000000000000010000000000000000000." selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..7" selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..8" selected="True" />
+            <Field field="X.00000000000000000000000010101000000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000010000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..9" selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000010000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000000000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000000100000000100000000000000000000000000000000000000000000000000000000000000000000000..1" selected="True" />
+            <Field field="X.00000000000000000000000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000010000000000000000000000000000000000000000000000000000000000000." selected="True" />
+            <Field field="X.00000000000000000000000000100000000100000000000000000000000000000000000000000000000000010000000000000000000..2" selected="True" />
+            <Field field="X.00000000000000000000000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..10" selected="True" />
+            <Field field="X.00000000000000000100000000101000000100000000000000000000000000000000000000000000000000010000000000000000000..3" selected="True" />
+            <Field field="X.00000000000000000000000000101000000100000000000000000000000000000000000000000000000000000000000000000000000..4" selected="True" />
+            <Field field="X.0000320000000000001250000015530202014900861120200013000000010000000000008000231040000000000000000400000120000000000000000000." selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="127" source="Transpose:" type="String" />
+            <Field name="Value" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="906" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\i1herre\AppData\Local\Temp\Engine_12748_af85ebad9a614891ab1f7b2198897fc3_\Engine_10704_d1604e2e7d7146429aad3ccc1c434acb_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxRPluginGui.R">
+        <Position x="918" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RScript><![CDATA[df <- read.Alteryx("#1", mode="data.frame")
+df <- as.data.frame(df[,-1])
+df2 <- read.Alteryx("#2", mode="data.frame")
+df2 <- as.data.frame(df2[,1])
+
+df <- cbind(df2,df)
+colnames(df) <- c("dma_id","brand_string")
+
+write.Alteryx(df, 1)
+]]></RScript>
+          <UseFullUpdate value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output1">
+          <RecordInfo>
+            <Field name="dma_id" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="brand_string" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1026" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\i1herre\AppData\Local\Temp\Engine_12748_af85ebad9a614891ab1f7b2198897fc3_\Engine_10704_f35cf5473ae440ce88954ee295962d4e_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1026" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="dma_id" selected="True" />
+            <SelectField field="brand_string" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="dma_id" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="brand_string" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="918" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GeoClusterAssignment_V2.xlsx
+Table=`StoreTable$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store Number" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="Store Type" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_String" />
+            <Field name="Store Size (Sq Ft)" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="Open Date" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_String" />
+            <Field name="City" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_String" />
+            <Field name="State" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_String" />
+            <Field name="Zip" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_String" />
+            <Field name="Latitude" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="Longitude" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="Regional DC" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_String" />
+            <Field name="Dry Grocery DC" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_String" />
+            <Field name="Perishable DC" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_String" />
+            <Field name="DMA ID" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="DMA Name" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_String" />
+            <Field name="DataDMA" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_String" />
+            <Field name="CMA" size="255" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_String" />
+            <Field name="GeoCluster" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="ECS Cluster" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="Fixture" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="Footage" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="Velocity" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="Hispanic" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1026" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Store Number" selected="True" />
+            <SelectField field="DMA ID" selected="True" type="V_WString" size="19" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store Number" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="DMA ID" size="19" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1182" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="dma_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="DMA ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="dma_id" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="brand_string" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="dma_id" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="dma_id" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="brand_string" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Store Number" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="DMA ID" size="19" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="dma_id" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Store Number" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="DMA ID" size="19" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="DMA ID" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1290" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="brand_string" action="GroupBy" rename="brand_string" />
+            <SummarizeField field="dma_id" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="brand_string" size="1073741823" source="Summarize: GroupBy - brand_string" type="V_WString" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="brand_string" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1386" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\i1herre\AppData\Local\Temp\Engine_12748_af85ebad9a614891ab1f7b2198897fc3_\Engine_10704_919ea6517d4c417ab55a0c327291ae1d_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1182" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="brand_string" action="GroupBy" rename="brand_string" />
+            <SummarizeField field="dma_id" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="brand_string" size="1073741823" source="Summarize: GroupBy - brand_string" type="V_WString" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="brand_string" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1302" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\i1herre\AppData\Local\Temp\Engine_12748_af85ebad9a614891ab1f7b2198897fc3_\Engine_10704_49ad1eb6ed504b9dbaf3c5762f0aab6a_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1542" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="dma_id" selected="True" />
+            <SelectField field="brand_string" selected="True" />
+            <SelectField field="Store Number" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="dma_id" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="brand_string" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Store Number" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="dma_id" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1710" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\i1herre\AppData\Local\Temp\Engine_12748_af85ebad9a614891ab1f7b2198897fc3_\Engine_10704_692f77aa27cb468abfe796a28435d13a_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxRPluginGui.R">
+        <Position x="1434" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RScript><![CDATA[df <- read.Alteryx("#1", mode="data.frame")
+
+count <- 0
+df$GeoClusterNumber <- NA
+
+for(i in 1:length(df$brand_string)){
+	count <- count+1
+	df$GeoClusterNumber[i] <- count
+}
+
+write.Alteryx(df, 1)
+]]></RScript>
+          <UseFullUpdate value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output1">
+          <RecordInfo>
+            <Field name="brand_string" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Count" source="R-DATA:" type="Double" />
+            <Field name="GeoClusterNumber" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1542" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\i1herre\AppData\Local\Temp\Engine_12748_af85ebad9a614891ab1f7b2198897fc3_\Engine_10704_3bab2be2564241dab943a35e87253d1b_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1554" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Count" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="brand_string" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="GeoClusterNumber" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1674" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="brand_string" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="brand_string" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_brand_string" selected="False" rename="Right_brand_string" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="dma_id" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="brand_string" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Store Number" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="brand_string" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="dma_id" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="brand_string" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Store Number" source="File: A:\_AllTeam\Process and Tools\_Common Tools\GeoBrandToolkit\GeoClusterAssignment\GeoClusterAssignment_V2.xlsx|`StoreTable$`" type="Double" />
+            <Field name="GeoClusterNumber" source="R-DATA:" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="brand_string" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="brand_string" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="GeoClusterNumber" source="R-DATA:" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="brand_string" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1770" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\i1herre\AppData\Local\Temp\Engine_12748_af85ebad9a614891ab1f7b2198897fc3_\Engine_10704_58ec4e1dcbcd41edab0e20ce244f6972_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output1" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output1" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output2" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output2" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Output1" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="17" Connection="Question" />
+      <Destination ToolID="18" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="18" Connection="Action" />
+      <Destination ToolID="20" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output1" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output1" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="29" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Join" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Join" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="40" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output1" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output1" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Join" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>File Browse (17)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DmaToVectorID</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="18" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>C:\Users\i1herre\Documents\Assortment Discipline\GeoBrandExecution\2-19 StoreLevel Robust\CanVeg\ketch_Test_export_recommended_mhnth.csv</ReplaceText>
+              <Destination>1/File</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (16)</Name>
+          <ToolId value="16" />
+          <Questions>
+            <Question>
+              <Type>FileBrowse</Type>
+              <Description>Upload your DMA-UPC Tab from the GeoClusterAssignment.xlsx Workbook</Description>
+              <Name>File Browse (17)</Name>
+              <ToolId value="17" />
+              <SaveAs value="False" />
+              <Mode>DW2</Mode>
+              <DW2_SpatialOnly value="False" />
+              <DW2_FieldMap value="False" />
+              <InputToolId value="-1" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Wizard</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="0" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="15" Selected="False" />
+        <Tool ToolId="14" Selected="False" />
+        <Tool ToolId="19" Selected="True" />
+        <Tool ToolId="21" Selected="False" />
+        <Tool ToolId="23" Selected="False" />
+        <Tool ToolId="25" Selected="False" />
+        <Tool ToolId="36" Selected="False" />
+        <Tool ToolId="32" Selected="False" />
+        <Tool ToolId="34" Selected="False" />
+        <Tool ToolId="38" Selected="False" />
+        <Tool ToolId="41" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
